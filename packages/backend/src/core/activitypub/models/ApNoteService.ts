@@ -255,7 +255,6 @@ export class ApNoteService {
 				})
 				.catch(async err => {
 					this.logger.warn(`Error in inReplyTo ${note.inReplyTo} - ${err.statusCode ?? err}`);
-					}
 					throw err;
 				})
 			: null;
