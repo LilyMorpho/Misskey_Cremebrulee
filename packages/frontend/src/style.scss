@@ -6,6 +6,20 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
+@font-face {
+		 font-family: 'HancomUljuCheonjeonri';
+		 src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2205-2@1.0/HancomUljuCheonjeonri.woff2') format('woff2');
+		 font-weight: normal;
+		 font-style: normal;
+	}
+
+	@font-face {
+    font-family: 'D2Coding';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/D2Coding.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 :root {
 	--MI-radius: 12px;
 	--MI-marginFull: 16px;
@@ -33,7 +47,7 @@ html {
 	accent-color: var(--MI_THEME-accent);
 	overflow: auto;
 	overflow-wrap: break-word;
-	font-family: 'Hiragino Maru Gothic Pro', "BIZ UDGothic", Roboto, HelveticaNeue, Arial, sans-serif;
+	font-family: 'HancomUljuCheonjeonri', 'Hiragino Maru Gothic Pro', "BIZ UDGothic", Roboto, HelveticaNeue, Arial, sans-serif;
 	font-size: 14px;
 	line-height: 1.35;
 	text-size-adjust: 100%;
@@ -429,7 +443,7 @@ rt {
 }
 
 ._monospace {
-	font-family: Fira code, Fira Mono, Consolas, Menlo, Courier, monospace !important;
+	font-family: 'D2Coding', Fira code, Fira Mono, Consolas, Menlo, Courier, monospace !important;
 }
 
 ._zoom {
