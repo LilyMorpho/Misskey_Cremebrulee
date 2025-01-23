@@ -40,7 +40,7 @@ const bg = {
 </script>
 
 <style lang="scss" module>
-$height: 2ex;
+$height: 1em;
 
 .root {
 	display: flex;
